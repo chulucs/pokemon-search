@@ -1,0 +1,9 @@
+.teste {
+  border: 10px solid pink;
+}
+
+.teste .pokedex-info__type {
+  border: 1px solid black;
+  text-align: center;
+}
+/*# sourceMappingURL=PokeDescription.css.map */

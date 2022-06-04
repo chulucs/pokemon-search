@@ -1,8 +1,14 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, screen } from "@testing-library/react";
+import axiosMock from "axios";
+import App from "./App";
 
-test('renders learn react link', () => {
+test("check if data is rendering after fetching", async () => {
+  axiosMock.get.mockResolvedValueOnce({
+    data: {},
+  });
+
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+
+  const loadEl = await screen.findByTestId("loading");
+  expect(loadEl).toBeInTheDocument();
 });

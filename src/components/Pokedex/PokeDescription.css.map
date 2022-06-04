@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,MAAM,CAAC;EACN,MAAM,EAAE,eAAe;CAMvB;;AAPD,AAGE,MAHI,CAGJ,mBAAmB,CAAC;EAClB,MAAM,EAAE,eAAe;EACvB,UAAU,EAAE,MAAM;CACnB",
+    "sources": [
+        "PokeDescription.scss"
+    ],
+    "names": [],
+    "file": "PokeDescription.css"
+}

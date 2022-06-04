@@ -1,0 +1,47 @@
+.form {
+  margin-top: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form label {
+  margin-right: 0.3rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  font-family: "Arial";
+}
+
+@media (max-width: 40rem) {
+  .form label {
+    margin-bottom: 0.3rem;
+  }
+}
+
+.form input {
+  padding: 0.7rem;
+  border-radius: 5px;
+  width: 24%;
+}
+
+@media (max-width: 40rem) {
+  .form input {
+    width: 100%;
+  }
+}
+
+@media (max-width: 40rem) {
+  .form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+/*# sourceMappingURL=PokeForm.module.css.map */

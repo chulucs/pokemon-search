@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,QAAQ,CAAC;EACP,UAAU,ECFC,IAAI;CDgBhB;;AAfD,AAGE,QAHM,CAGN,aAAa,CAAC;EACZ,QAAQ,EAAE,QAAQ;EAClB,aAAa,EAAE,GAAG;EAClB,UAAU,ECJD,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,kBAAe;EDKpC,KAAK,ECPU,GAAG;EDQlB,MAAM,EAAE,SAAS;EACjB,gBAAgB,ECDA,0BAA0B;CDM3C;;ACHD,MAAM,EAAC,SAAS,EAAE,KAAK;EDXzB,AAGE,QAHM,CAGN,aAAa,CAAC;IASV,KAAK,ECZkB,GAAG;GDc7B",
+    "sources": [
+        "Pokedex.module.scss",
+        "../../scss_var/_variables.scss"
+    ],
+    "names": [],
+    "file": "Pokedex.module.css"
+}

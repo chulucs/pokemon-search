@@ -1,0 +1,17 @@
+$generic-space: 0.3rem;
+$margin-top: 6rem;
+$size-width: (min: 15%, max: 40%);
+$font-color: (p: #8d1313, h2: #e96629);
+$box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+
+$pokeform-fontsize: 1.2rem;
+$pokeform-fontfamily: "Arial";
+$pokeform-padding-input: 0.7rem;
+
+$pokedex-bkg-color: rgba(211, 211, 211, 0.658);
+
+@mixin media-max-width($width){
+  @media(max-width: $width){
+    @content;
+  }
+}

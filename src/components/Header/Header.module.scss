@@ -1,0 +1,18 @@
+@import "../../scss_var/_variables.scss";
+
+.header {
+  position:fixed;
+  display: flex;
+  justify-content: flex-start;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  background-color: black;
+  box-shadow: $box-shadow;
+
+  h2 {
+    padding: 0.5rem;
+    margin-left: 1rem;
+    color: map-get($font-color , h2);
+  }
+}

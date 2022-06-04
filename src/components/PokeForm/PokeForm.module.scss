@@ -1,0 +1,32 @@
+@import "../../scss_var/_variables.scss";
+
+.form {
+  margin-top: $margin-top;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  label {
+    margin-right: $generic-space;
+    font: {
+      size: $pokeform-fontsize;
+      weight: bold;
+      family: $pokeform-fontfamily;
+    }
+    @include media-max-width(40rem) {
+      margin-bottom: $generic-space;
+    }
+  }
+
+  input {
+    padding: $pokeform-padding-input;
+    border-radius: 5px;
+    width: 24%;
+    @include media-max-width(40rem) {
+      width: 100%;
+    }
+  }
+  @include media-max-width(40rem) {
+    flex-direction: column;
+  }
+}

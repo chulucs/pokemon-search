@@ -1,0 +1,16 @@
+@import "../../scss_var/_variables.scss";
+
+.pokedex {
+  .pokedex-info {
+    position: relative;
+    border-radius: 5px;
+    box-shadow: $box-shadow;
+    width: map-get($size-width , min );
+    margin: 3rem auto;
+    background-color: $pokedex-bkg-color;
+
+    @include media-max-width(40rem){
+      width: map-get($size-width , max );
+    }
+  }
+}

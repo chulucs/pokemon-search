@@ -1,0 +1,17 @@
+.pokedex-info__description {
+  text-align: center;
+  padding: 0.3rem;
+}
+
+.pokedex-info__description .pokedex-info__type, .pokedex-info__description .pokedex-info__altura,
+.pokedex-info__description .pokedex-info__habilidades, .pokedex-info__description .pokedex-info__peso {
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 0.3rem;
+  text-align: center;
+  min-width: 15%;
+  padding: 0.3rem;
+  -webkit-box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+/*# sourceMappingURL=PokeDescription.module.css.map */

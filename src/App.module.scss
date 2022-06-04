@@ -1,0 +1,12 @@
+@import "./scss_var/_variables.scss";
+
+.p {
+  color: map-get($font-color, p);
+  font-weight: bold;
+  text-align: center;
+}
+
+.p1 {
+  @extend .p;
+  color:black;
+}

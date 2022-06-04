@@ -1,0 +1,10 @@
+@import "../../scss_var/_variables.scss";
+
+.pokemon-list {
+  margin-top: 3rem;
+  display: flex;
+
+  @include media-max-width(40rem){
+    flex-direction: column;
+  }
+}

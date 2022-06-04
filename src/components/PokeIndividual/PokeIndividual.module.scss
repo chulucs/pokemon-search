@@ -1,0 +1,12 @@
+@import "../../scss_var/_variables.scss";
+.pokemon-list__item {
+  margin: $generic-space;
+  padding: $generic-space;
+  border-radius: 3px;
+  background-color: $pokedex-bkg-color;
+  box-shadow: $box-shadow;
+  @include media-max-width(40rem){
+    text-align: center;
+    
+  }
+}

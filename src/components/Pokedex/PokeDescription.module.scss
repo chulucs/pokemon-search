@@ -1,0 +1,18 @@
+@import "../../scss_var/_variables.scss";
+
+.pokedex-info__description {
+  text-align: center;
+  padding: $generic-space;
+
+  .pokedex-info__type, .pokedex-info__altura,
+  .pokedex-info__habilidades, .pokedex-info__peso {
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: $generic-space;
+    text-align: center;
+    min-width: map-get($size-width , min);
+    padding: $generic-space;
+    box-shadow: $box-shadow;
+  }
+
+}

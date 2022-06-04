@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,0BAA0B,CAAC;EACzB,UAAU,EAAE,MAAM;EAClB,OAAO,ECJO,MAAM;CDiBrB;;AAfD,AAIE,0BAJwB,CAIxB,mBAAmB,EAJrB,0BAA0B,CAIH,qBAAqB;AAJ5C,0BAA0B,CAKxB,0BAA0B,EAL5B,0BAA0B,CAKI,mBAAmB,CAAC;EAC9C,MAAM,EAAE,eAAe;EACvB,aAAa,EAAE,GAAG;EAClB,MAAM,ECVM,MAAM;EDWlB,UAAU,EAAE,MAAM;EAClB,SAAS,ECVM,GAAG;EDWlB,OAAO,ECbK,MAAM;EDclB,UAAU,ECVD,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,kBAAe;CDWrC",
+    "sources": [
+        "PokeDescription.module.scss",
+        "../../scss_var/_variables.scss"
+    ],
+    "names": [],
+    "file": "PokeDescription.module.css"
+}
