@@ -48,6 +48,7 @@ function App() {
 
     const infoOnclickHandler = (data) => {
       setPokeSearch([{...data}]);
+      setIsValid(true);
     }
 
    // Get current posts
@@ -74,6 +75,7 @@ function App() {
       <Header />
       <PokeForm onGetPokemon={getPokemonDataHandler} />
       {!isValid && <p className={classes.p}>Favor colocar nomes válidos de Pokemon</p>}
+      {isLoading && <p className={classes.p1}>Loading...</p>}
       {isValid && <Pokedex pokemon={pokeSearch} />}
       <PokeList posts={currentPosts} onClick={infoOnclickHandler}/>
       <Pagination
